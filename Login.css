@@ -1,0 +1,106 @@
+
+ .logtotal{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    font-family: Poppins;
+    /* background-image: url('../Assets/Images/warm-welcoming-atmosphere-as-guests-arrive-party-venue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+ }
+ .box{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    margin-left: 15%;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    /* -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
+ }
+ .centerbox{
+    width: 2px;
+    height: 400px;
+    background-color: black;
+    border: 5px;
+    border: 5px;
+    position: relative;
+    margin-left: 49%;
+    margin-top: 50px;
+}
+.leftlogin{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    margin-left: 20%;
+    background-image: url('../Assets/Images/Log.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rightlogin{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 20%;
+    position: absolute;
+    top: 28%;
+    margin-left: 58%;
+}
+.rightlogin h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color : blue;
+}
+.rightlogin form{
+    width: 100%;
+}
+.rightlogin button{
+    font-size: 16px;
+    background-color: rgb(21, 255, 21);
+}
+.rightlogin label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.createnewid
+{
+    text-align: center;
+    padding-top: 20px;
+    color: grey;
+}
+.createnewid span{
+    color: blue;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 420;
+}
+.rightlogin input[type='text'], input[type='email'], input[type='password'] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.rightlogin button[type='submit'] {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    left: 23%;
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rightlogin button[type='submit']:hover {
+    background-color: #45a049;
+} 

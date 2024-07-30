@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+
+.AboutTotal {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.Abouttitle h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: orangered;
+}
+
+.Aboutspace {
+    height: 20px;
+}
+
+.AboutText p {
+    font-size: 25px;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px 0;
+    text-indent: 30%;
+}
+
+
+.Homeclientcount {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Hometab {
+    width: 100%;
+    table-layout: fixed;
+    /* margin: 0 auto;border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.Hometab1 {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    margin: 0 15px;
+    
+}
+
+.Hometab1 p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.Hometab1 i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: rgb(7, 7, 96);
+}
+
+.Aboutmis {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.Topic h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Aboutmis p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    text-indent: 30%;
+}
+
+.Aboutmis ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Aboutmis ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Aboutmis ul li:before {
+    content: "✔";
+    color: green;
+    margin-right: 10px;
+}
+
+.Aboutus {
+    margin: 40px 0;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.ourteam h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.Aboutwe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 300px;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Aboutprof {
+    width: 100px;
+    height: 100px;
+    /* background-color: #ccc; */
+    border-radius: 50%;
+    margin-right: 20px;
+    background-image: url('../Assets/Images/prof.jpg');
+    background-size: cover;
+}
+
+.Aboutname h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.Aboutname p {
+    font-size: 20px;
+    color: #666;
+}
+
+.Aboutname i {
+    font-size: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: purple;
+}
+
+.Aboutname i:hover {
+    color: #007BFF;
+}
+
+.Aboutustotal {
+    margin-top: 20px;
+}

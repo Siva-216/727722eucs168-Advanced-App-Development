@@ -1,0 +1,80 @@
+.ProfileTotal{
+    height:auto;
+    width: 100%;
+    border: 1px solid black;
+    font-family: Poppins;
+    text-align: center;
+}
+.ProfileTotal h1{
+    font-size: 30px;
+    text-align: center;
+}
+.Prof{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.Prof p{
+    font-size: 20px;
+}
+.Profilepic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 43%;
+}
+.Profilepic:hover{
+    border-radius: 10%;
+}
+.Viewbut{
+    color: blue;
+    border: 1px solid skyblue;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Viewbut:hover{
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px skyblue;
+}
+.Editbut{
+    color: green;
+    border: 1px solid seagreen;
+    background:none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.Editbut:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 2px green;
+}
+.Closebut{
+    color: orangered;
+    border: 1px solid orangered;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.Closebut:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 2px 2px 2px orangered;
+}
+.viewdataspace{
+    height: auto;
+    width: 30%;
+    border: 1px solid black;
+    position: absolute;
+    top: 21.5%;
+    left: 35%;
+    z-index: 3px;
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 55px;
+}

@@ -1,0 +1,48 @@
+.Eventtotal{
+    height: auto;
+    width: 100%;
+    background-color: #F4F4F4;
+    border: 1px solid white;
+    font-family: Poppins;
+}
+.Eventtotal h1{
+    /* font-family: Abel; */
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.Eventshow{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Eventshow img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.Eventpic
+{
+    height: 300px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+.Eventdes{
+    height: 300px;
+    width: 600px;
+    /* border: 1px solid black; */
+}
+.Eventdes h2{
+    text-align: center;
+    font-size: 40px;
+    color: orangered;
+}
+.Eventdes p{
+    text-indent: 30%;
+    font-size: 19px;
+}

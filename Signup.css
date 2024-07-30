@@ -1,0 +1,118 @@
+.signtotal{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    font-family: Poppins;
+    /* background-color: black; */
+ }
+ .signbox{
+        width: 70%;
+        height: 600px;
+        position: absolute;
+        top: 10%;
+        margin-left: 15%;
+        background-color: #f4f4f4;
+        border-radius: 7px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);        
+        /* border: 3px solid black; */
+ }
+ .signcenter{
+    width: 2px;
+    height: 510px;
+    background-color: grey;
+    border: 5px;
+    border: 5px;
+    position: relative;
+    margin-left: 49%;
+    margin-top: 50px;
+}
+.signleft{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: 18%;
+    margin-left: 5%;
+    background-image: url('../Assets/Images/6368592.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* .signleft2{
+    border: 2px solid black;
+    height: 500px;
+    width: 35%;
+    position: absolute;
+    top: 45%;
+    margin-left: 5%;
+    /* background-image: url('../Assets/Images/4140045.jpg'); */
+    /*background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.signleft2 h1{
+    color: #10e31a;
+} */
+.signright{
+        /* border: 2px solid black; */
+        height: 400px;
+        width: 28%;
+        position: absolute;
+        top: 6%;
+        margin-left: 58%;
+}
+.signright h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color : blue;
+}
+.signright form{
+    width: 100%;
+}
+.signright button{
+    font-size: 16px;
+    background-color: rgb(21, 255, 21);
+}
+.signright label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.alreadyaccount
+{
+    text-align: center;
+    padding-top: 20px;
+    color: grey;
+}
+.alreadyaccount span{
+    color: blue;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 420;
+}
+.signright input[type='text'], input[type='email'], input[type='password'] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signright button[type='submit'] {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    left: 23%;
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signright button[type='submit']:hover {
+    background-color: #45a049;
+} 

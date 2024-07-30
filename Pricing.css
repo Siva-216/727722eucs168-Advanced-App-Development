@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Poppins:wght@100..900&display=swap');
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.pricing-card.popular {
+    border-top: 5px solid orange;
+}
+
+.pricing-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-card .description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.pricing-card .price {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pricing-card .price span {
+    font-size: 14px;
+    color: #666;
+}
+
+.try-now {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.try-now:hover {
+    background-color: #45a049;
+}
+
+.request-demo {
+    display: block;
+    color: #007BFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.request-demo:hover {
+    text-decoration: underline;
+}
+
+.fundamentals {
+    text-align: left;
+}
+
+.fundamentals h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fundamentals ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fundamentals ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fundamentals ul li:before {
+    content: "✔";
+    color: green;
+    margin-right: 10px;
+}

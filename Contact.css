@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+
+.ContactUsContainer {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ContactUsTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ContactUsTitle h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.ContactUsContent p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.FormGroup {
+  margin-bottom: 15px;
+}
+
+.FormGroup label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.FormGroup input,
+.FormGroup textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.FormGroup input:focus,
+.FormGroup textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.SubmitButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SubmitButton:hover {
+  background-color: #0056b3;
+}
+
+.FollowUs {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.FollowUs h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.FollowUs p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.SocialIcons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.SocialIcons a:hover {
+  color: #007BFF;
+}
