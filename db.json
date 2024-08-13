@@ -1,0 +1,18 @@
+{
+  "UserDatas": [
+    {
+      "id": 444,
+      "username": "SK",
+      "email": "sk@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": 445,
+      "username": "Veera_18",
+      "email": "veera@gmail.com",
+      "password": "12345",
+      "role": "user"
+    }
+  ]
+}
